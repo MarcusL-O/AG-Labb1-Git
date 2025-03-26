@@ -1,1 +1,0 @@
-git init – Initierar ett nytt git-repo i en mapp.

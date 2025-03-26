@@ -1,0 +1,16 @@
+Här är alla kommandon jag skrivit 
+
+
+git init
+git echo Readme och .gitignore
+git remote add origin https://github.com/ditt-användarnamn/ditt-repo.git
+git branch -M main
+git push -u origin main
+git checkout - b (branchnamnet)
+gjort så på development och alla branches
+sen bara git add (fil)
+git commit -m"Kommentar"
+git push 
+
+
+git push -u origin Glenn-dev efter man skapat en branch måste man pusha den till github 
