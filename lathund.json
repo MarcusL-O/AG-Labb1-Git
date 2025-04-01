@@ -38,6 +38,10 @@
     {
       "command": "git reset filnamn",
       "description": "Tar bort fil från staging area"
+    },
+    {
+      "command": "git reset --hard",
+      "description": "Återställer alla ändringar till senaste commit (försiktigt!)"
     }
 
 ]
