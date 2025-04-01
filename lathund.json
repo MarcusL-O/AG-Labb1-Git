@@ -10,5 +10,9 @@
     {
       "command": "git add filnamn",
       "description": "Lägger till en specifik fil till staging area"
+    },
+    {
+      "command": "git add .",
+      "description": "Lägger till alla ändrade filer till staging area"
     }
 ]
