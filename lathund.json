@@ -46,6 +46,10 @@
     {
       "command": "git checkout branchnamn",
       "description": "Byter till en annan branch"
+    },
+    {
+      "command": "git checkout -b ny-branch",
+      "description": "Skapar och byter till en ny branch"
     }
 
 ]
