@@ -34,5 +34,10 @@
     {
       "command": "git diff --staged",
       "description": "Visar skillnader mellan staged och senaste commit"
+    },
+    {
+      "command": "git reset filnamn",
+      "description": "Tar bort fil från staging area"
     }
+
 ]
