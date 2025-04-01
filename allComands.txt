@@ -13,6 +13,7 @@ git checkout branchnamn - Byter till en annan branch
 git checkout -b ny-branch - Skapar och byter till en ny branch
 git branch - Visar alla lokala branches
 git branch ny-branch - Skapar en ny branch (utan att byta till den)
+----------------------marcus-------------------
 git branch -d branchnamn - Tar bort en branch (om den är mergad)
 git branch -D branchnamn - Tvingar borttagning av branch
 git merge annan-branch - Slår ihop en annan branch in i nuvarande
