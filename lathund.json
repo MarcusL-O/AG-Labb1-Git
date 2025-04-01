@@ -26,5 +26,9 @@
     {
       "command": "git log --oneline",
       "description": "Visar commit-historiken i en rad per commit"
+    },
+    {
+      "command": "git diff",
+      "description": "Visar skillnader mellan sparade och ändrade filer"
     }
 ]
