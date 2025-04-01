@@ -6,5 +6,9 @@
     {
       "command": "git status",
       "description": "Visar aktuell status på repo, t.ex. ändrade och ocommittade filer"
+    },
+    {
+      "command": "git add filnamn",
+      "description": "Lägger till en specifik fil till staging area"
     }
 ]
