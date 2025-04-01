@@ -54,6 +54,10 @@
     {
       "command": "git branch",
       "description": "Visar alla lokala branches"
+    },
+    {
+      "command": "git branch ny-branch",
+      "description": "Skapar en ny branch (utan att byta till den)"
     }
 
 ]
