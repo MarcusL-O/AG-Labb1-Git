@@ -14,5 +14,9 @@
     {
       "command": "git add .",
       "description": "Lägger till alla ändrade filer till staging area"
+    },
+    {
+      "command": "git commit -m \"meddelande\"",
+      "description": "Skapar en commit med ett meddelande"
     }
 ]
