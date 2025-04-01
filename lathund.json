@@ -2,5 +2,9 @@
     {
       "command": "git init",
       "description": "Skapar ett nytt, tomt Git-repo i den aktuella mappen."
+    },
+    {
+      "command": "git status",
+      "description": "Visar aktuell status på repo, t.ex. ändrade och ocommittade filer"
     }
 ]
