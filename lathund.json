@@ -42,6 +42,10 @@
     {
       "command": "git reset --hard",
       "description": "Återställer alla ändringar till senaste commit (försiktigt!)"
+    },
+    {
+      "command": "git checkout branchnamn",
+      "description": "Byter till en annan branch"
     }
 
 ]
