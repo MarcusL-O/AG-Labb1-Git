@@ -22,5 +22,9 @@
     {
       "command": "git log",
       "description": "Visar historiken för commits i nuvarande branch"
+    },
+    {
+      "command": "git log --oneline",
+      "description": "Visar commit-historiken i en rad per commit"
     }
 ]
