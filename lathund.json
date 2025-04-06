@@ -1,0 +1,66 @@
+[
+    {
+      "command": "git branch ny-branch",
+      "beskrivning": "Skapar en ny branch (utan att byta till den)"
+    },
+    {
+      "command": "git branch -d branchnamn",
+      "beskrivning": "Tar bort en branch (om den är mergad)"
+    },
+    {
+      "command": "git branch -D branchnamn",
+      "beskrivning": "Tvingar borttagning av branch"
+    },
+    {
+      "command": "git merge annan-branch",
+      "beskrivning": "Slår ihop en annan branch in i nuvarande"
+    },
+    {
+      "command": "git pull",
+      "beskrivning": "Hämtar och mergar senaste ändringar från remote"
+    },
+    {
+      "command": "git push",
+      "beskrivning": "Skickar dina commits till remote"
+    },
+    {
+      "command": "git push -u origin branchnamn",
+      "beskrivning": "Pushar och sätter upstream för en ny branch"
+    },
+    {
+      "command": "git clone URL",
+      "beskrivning": "Klonar ett fjärrrepository till din dator"
+    },
+    {
+      "command": "git remote",
+      "beskrivning": "Visar kopplade fjärr-repos"
+    },
+    {
+      "command": "git remote add origin URL",
+      "beskrivning": "Kopplar ett nytt fjärrrepo med namnet origin"
+    },
+    {
+      "command": "git remote -v",
+      "beskrivning": "Visar URL:er till alla kopplade fjärr-repos"
+    },
+    {
+      "command": "git fetch",
+      "beskrivning": "Hämtar ändringar från remote men mergar inte"
+    },
+    {
+      "command": "git stash",
+      "beskrivning": "Sparar undan lokala ändringar temporärt"
+    },
+    {
+      "command": "git stash apply",
+      "beskrivning": "Återställer senaste stash:ade ändringar"
+    },
+    {
+      "command": "git stash pop",
+      "beskrivning": "Återställer och tar bort stash"
+    },
+    {
+      "command": "git stash list",
+      "beskrivning": "Visar lista över alla stashade ändringar"
+    }
+]
