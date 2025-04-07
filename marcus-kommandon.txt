@@ -1,0 +1,70 @@
+Här är alla kommandon jag skrivit 
+
+
+# Skapade nytt Git-repo
+git init
+
+# Länkade remote repository
+git remote add origin https://github.com/ditt-användarnamn/ditt-repo.git
+
+# Bytte namn på huvudbranchen till main
+git branch -M main
+
+# Pushade main till GitHub och satte upstream
+git push -u origin main
+
+# Skapade ny branch och bytte till den 
+git checkout -b development
+
+# Lade till fil i staging area
+git add allCommands.txt
+
+# Skapade commit med meddelande
+git commit -m "Skapade allCommands.txt-fil"
+
+# Pushade development till remote
+git push
+
+# Skapade personlig branch från development
+git checkout -b marcus-dev
+
+# Pushade personlig branch till remote och satte upstream
+git push -u origin marcus-dev
+
+# Lade till enskilda filer
+git add marcus-kommandon.txt
+
+# Skapade commit med meddelande för varje git-kommando
+git commit -m "Lade till git init"
+
+# Upprepade ovanstående för alla 15 kommandon
+# ...
+
+# Gjorde ett misstag: skapade allCommands.txt i fel branch (marcus-dev)
+# Löste det genom att hitta commit med git log:
+git log --oneline
+
+# Bytte tillbaka till rätt branch (development)
+git checkout development
+
+# Cherry-pickade rätt commit från marcus-dev
+git cherry-pick 393cccb
+
+# Pushade uppdaterad development
+git push
+
+# Gick in i liams-dev (och övriga) branches och mergade in development
+git checkout liam-dev
+git merge development
+git push
+
+#  Upprepade merge och push för alla personliga branches
+
+# Glömde att lägga till innehåll med alla kommandon i allCommands.txt
+# Skrev in dem i development och mergade till alla igen
+
+# Kontroll av status vid olika tillfällen
+git status
+
+# Visade alla branches
+git branch
