@@ -1,0 +1,60 @@
+git init - Initierar ett nytt tomt Git-repository i mappen
+git status - Visar aktuell status på repo, t.ex. ändrade och ocommittade filer
+git add filnamn - Lägger till en specifik fil till staging area
+git add . - Lägger till alla ändrade filer till staging area
+git commit -m "meddelande" - Skapar en commit med ett meddelande
+git log - Visar historiken för commits i nuvarande branch
+git log --oneline - Visar commit-historiken i en rad per commit
+git diff - Visar skillnader mellan sparade och ändrade filer
+git diff --staged - Visar skillnader mellan staged och senaste commit
+git reset filnamn - Tar bort fil från staging area
+git reset --hard - Återställer alla ändringar till senaste commit (försiktigt!)
+git checkout branchnamn - Byter till en annan branch
+git checkout -b ny-branch - Skapar och byter till en ny branch
+git branch - Visar alla lokala branches
+git branch ny-branch - Skapar en ny branch (utan att byta till den)
+git branch -d branchnamn - Tar bort en branch (om den är mergad)
+git branch -D branchnamn - Tvingar borttagning av branch
+git merge annan-branch - Slår ihop en annan branch in i nuvarande
+git pull - Hämtar och mergar senaste ändringar från remote
+git push - Skickar dina commits till remote (GitHub)
+git push -u origin branchnamn - Pushar och sätter upstream för en ny branch
+git clone URL - Klonar ett fjärrrepository till din dator
+git remote - Visar kopplade fjärr-repos
+git remote add origin URL - Kopplar ett nytt fjärrrepo med namnet origin
+git remote -v - Visar URL:er till alla kopplade fjärr-repos
+git fetch - Hämtar ändringar från remote men mergar inte
+git stash - Sparar undan lokala ändringar temporärt
+git stash apply - Återställer senaste stash:ade ändringar
+git stash pop - Återställer och tar bort stash
+git stash list - Visar lista över alla stashade ändringar
+git tag - Visar alla taggar
+git tag v1.0 - Skapar en ny tag med namnet v1.0
+git show tag-namn - Visar innehållet i en tag
+git blame filnamn - Visar vem som ändrade varje rad i en fil
+git rm filnamn - Tar bort en fil och lägger borttagningen i staging
+git mv gammaltfil nyttfil - Byter namn på en fil via Git
+git clean -fd - Tar bort alla otrackade filer och mappar
+git config --global user.name "Ditt Namn" - Sätter globalt användarnamn
+git config --global user.email "mejl@exempel.se" - Sätter global e-post
+git config --list - Visar alla nuvarande Git-inställningar
+git reflog - Visar historik över alla HEAD-förflyttningar
+git cherry-pick commit-id - Kopierar en specifik commit till nuvarande branch
+git revert commit-id - Skapar en ny commit som tar bort effekten av en gammal
+git shortlog - Visar commit-historik grupperad per användare
+git archive --format zip --output fil.zip HEAD - Skapar zip av senaste commit
+git show commit-id - Visar detaljerad info om en specifik commit
+git commit --amend - Ändrar senaste commit (t.ex. med nytt meddelande)
+git rebase annan-branch - Flyttar commits till ny bas (används för städa historia)
+git pull --rebase - Hämtar ändringar och rebasar istället för merge
+git init --bare - Skapar ett tomt repo utan arbetskatalog (för server)
+git switch branchnamn - Byter branch (modern variant av checkout)
+git switch -c ny-branch - Skapar och byter till ny branch
+git restore filnamn - Återställer en fil till senaste commit
+git restore --staged filnamn - Tar bort en fil från staging
+git remote rename origin nytt-namn - Byter namn på remote
+git remote remove origin - Tar bort kopplingen till en remote
+git bisect start - Startar felsökning mellan commits
+git bisect good commit-id - Markerar en commit som fungerande
+git bisect bad commit-id - Markerar en commit som trasig
+git bisect reset - Avslutar bisect och återgår till original state

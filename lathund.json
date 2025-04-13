@@ -1,0 +1,258 @@
+[
+    {
+      "command": "git init",
+      "description": "Skapar ett nytt, tomt Git-repo i den aktuella mappen."
+    },
+    {
+      "command": "git status",
+      "description": "Visar aktuell status på repo, t.ex. ändrade och ocommittade filer"
+    },
+    {
+      "command": "git add filnamn",
+      "description": "Lägger till en specifik fil till staging area"
+    },
+    {
+      "command": "git add .",
+      "description": "Lägger till alla ändrade filer till staging area"
+    },
+    {
+      "command": "git commit -m \"meddelande\"",
+      "description": "Skapar en commit med ett meddelande"
+    },
+    {
+      "command": "git log",
+      "description": "Visar historiken för commits i nuvarande branch"
+    },
+    {
+      "command": "git log --oneline",
+      "description": "Visar commit-historiken i en rad per commit"
+    },
+    {
+      "command": "git diff",
+      "description": "Visar skillnader mellan sparade och ändrade filer"
+    },
+    {
+      "command": "git diff --staged",
+      "description": "Visar skillnader mellan staged och senaste commit"
+    },
+    {
+      "command": "git reset filnamn",
+      "description": "Tar bort fil från staging area"
+    },
+    {
+      "command": "git reset --hard",
+      "description": "Återställer alla ändringar till senaste commit (försiktigt!)"
+    },
+    {
+      "command": "git checkout branchnamn",
+      "description": "Byter till en annan branch"
+    },
+    {
+      "command": "git checkout -b ny-branch",
+      "description": "Skapar och byter till en ny branch"
+    },
+    {
+      "command": "git branch",
+      "description": "Visar alla lokala branches"
+    },
+    {
+      "command": "git branch ny-branch",
+      "description": "Skapar en ny branch (utan att byta till den)"
+    },
+    {
+      "command": "git branch -d branchnamn",
+      "description": "Tar bort en branch (om den är mergad)"
+    },
+    {
+      "command": "git branch -D branchnamn",
+      "description": "Tvingar borttagning av branch"
+    },
+    {
+      "command": "git merge annan-branch",
+      "description": "Slår ihop en annan branch in i nuvarande"
+    },
+    {
+      "command": "git pull",
+      "description": "Hämtar och mergar senaste ändringar från remote"
+    },
+    {
+      "command": "git push",
+      "description": "Skickar dina commits till remote"
+    },
+    {
+      "command": "git push -u origin branchnamn",
+      "description": "Pushar och sätter upstream för en ny branch"
+    },
+    {
+      "command": "git clone URL",
+      "description": "Klonar ett fjärrrepository till din dator"
+    },
+    {
+      "command": "git remote",
+      "description": "Visar kopplade fjärr-repos"
+    },
+    {
+      "command": "git remote add origin URL",
+      "description": "Kopplar ett nytt fjärrrepo med namnet origin"
+    },
+    {
+      "command": "git remote -v",
+      "description": "Visar URL:er till alla kopplade fjärr-repos"
+    },
+    {
+      "command": "git fetch",
+      "description": "Hämtar ändringar från remote men mergar inte"
+    },
+    {
+      "command": "git stash",
+      "description": "Sparar undan lokala ändringar temporärt"
+    },
+    {
+      "command": "git stash apply",
+      "description": "Återställer senaste stash:ade ändringar"
+    },
+    {
+      "command": "git stash pop",
+      "description": "Återställer och tar bort stash"
+    },
+    {
+      "command": "git stash list",
+      "description": "Visar lista över alla stashade ändringar"
+    },
+    {
+      "command": "git log --graph",
+      "description": "Visar commit-historiken som en graf"
+    },
+    {
+      "command": "git log --author=\"namn\"",
+      "description": "Visar commits från en specifik författare"
+    },
+    {
+      "command": "git log --since=\"2 weeks ago\"",
+      "description": "Visar commits från senaste 2 veckorna"
+    },
+    {
+      "command": "git log --grep=\"nyckelord\"",
+      "description": "Söker efter commits med specifika nyckelord"
+    },
+    {
+      "command": "git diff HEAD~1",
+      "description": "Visar skillnader mot föregående commit"
+    },
+    {
+      "command": "git diff branchnamn",
+      "description": "Visar skillnader mot en annan branch"
+    },
+    {
+      "command": "git checkout -- filnamn",
+      "description": "Återställer en fil till senaste commit"
+    },
+    {
+      "command": "git checkout HEAD~1",
+      "description": "Går tillbaka till föregående commit"
+    },
+    {
+      "command": "git branch -m gammalt-namn nytt-namn",
+      "description": "Byter namn på en branch"
+    },
+    {
+      "command": "git branch -a",
+      "description": "Visar alla branches (inklusive remote)"
+    },
+    {
+      "command": "git merge --no-ff branchnamn",
+      "description": "Mergar en branch med en ny commit"
+    },
+    {
+      "command": "git merge --abort",
+      "description": "Avbryter en merge som gått fel"
+    },
+    {
+      "command": "git pull --rebase",
+      "description": "Hämtar ändringar och rebasar lokala commits"
+    },
+    {
+      "command": "git push --force",
+      "description": "Tvingar push av ändringar (använd med försiktighet)"
+    },
+    {
+      "command": "git clone --depth 1 URL",
+      "description": "Klonar bara senaste commiten (snabbare)"
+    },
+    {
+      "command": "git remote rename gammalt-namn nytt-namn",
+      "description": "Byter namn på ett remote-repo"
+    },
+    {
+      "command": "git remote remove namn",
+      "description": "Tar bort ett remote-repo"
+    },
+    {
+      "command": "git fetch --prune",
+      "description": "Hämtar ändringar och tar bort borttagna remote-branches"
+    },
+    {
+      "command": "git stash save \"meddelande\"",
+      "description": "Sparar undan ändringar med ett meddelande"
+    },
+    {
+      "command": "git stash drop",
+      "description": "Tar bort senaste stash"
+    },
+    {
+      "command": "git stash clear",
+      "description": "Tar bort alla stash:ade ändringar"
+    },
+    {
+      "command": "git tag v1.0",
+      "description": "Skapar en tagg för version 1.0"
+    },
+    {
+      "command": "git tag -a v1.0 -m \"version 1.0\"",
+      "description": "Skapar en annoterad tagg med meddelande"
+    },
+    {
+      "command": "git tag -l",
+      "description": "Visar alla taggar"
+    },
+    {
+      "command": "git push --tags",
+      "description": "Pushar alla taggar till remote"
+    },
+    {
+      "command": "git config --global user.name \"namn\"",
+      "description": "Sätter globalt användarnamn"
+    },
+    {
+      "command": "git config --global user.email \"email\"",
+      "description": "Sätter global email"
+    },
+    {
+      "command": "git config --list",
+      "description": "Visar alla git-inställningar"
+    },
+    {
+      "command": "git rebase branchnamn",
+      "description": "Flyttar commits till toppen av en annan branch"
+    },
+    {
+      "command": "git rebase -i HEAD~3",
+      "description": "Interaktiv rebase av senaste 3 commits"
+    },
+    {
+      "command": "git cherry-pick commit-hash",
+      "description": "Kopierar en specifik commit till nuvarande branch"
+    },
+    {
+      "command": "git bisect start",
+      "description": "Startar en binär sökning för att hitta en bugg"
+    },
+    {
+      "command": "git bisect good",
+      "description": "Markerar en commit som fungerande"
+    },
+    {
+      "command": "git bisect bad",
+      "description": "Markerar en commit som trasig"
+    }
+]
